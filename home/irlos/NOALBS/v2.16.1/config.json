@@ -1,0 +1,104 @@
+{
+  "user": {
+    "id": null,
+    "name": "<username>",
+    "passwordHash": null
+  },
+  "switcher": {
+    "bitrateSwitcherEnabled": true,
+    "onlySwitchWhenStreaming": false,
+    "instantlySwitchOnRecover": false,
+    "autoSwitchNotification": true,
+    "retryAttempts": 4,
+    "triggers": {
+      "low": 450,
+      "rtt": 1500,
+      "offline": 400,
+      "rttOffline": null
+    },
+    "switchingScenes": {
+      "normal": "LIVE",
+      "low": "BRB",
+      "offline": "BRB"
+    },
+    "streamServers": [
+      {
+	"streamServer": {
+	  "type": "SrtLiveServer",
+	  "statsUrl": "http://localhost:8282",
+	  "publisher": "publish/stream/irlos"
+	},
+	
+        "name": "nginx",
+        "priority": 1,
+        "overrideScenes": {
+          "normal": "LIVE",
+          "low": "low",
+          "offline": "BRB"
+        },
+        "dependsOn": null,
+        "enabled": true
+      }
+    ]
+  },
+  "software": {
+    "type": "Obs",
+    "host": "localhost",
+    "password": "<OBS-Password>",
+    "port": 5557,
+    "collections": null
+  },
+  "chat": {
+    "platform": "Twitch",
+    "username": "<username>",
+    "admins": [
+      "<username>"
+    ],	  
+    "language": "EN",
+    "prefix": "!",
+    "enablePublicCommands": true,
+    "enableModCommands": true,
+    "enableAutoStopStreamOnHostOrRaid": true,
+    "announceRaidOnAutoStop": true,
+    "commands": {
+      "Bitrate": {
+        "permission": null,
+        "userPermissions": null,
+        "alias": [
+          "b"
+        ]
+      },
+      "Fix": {
+        "permission": "Mod",
+        "userPermissions": [
+          "715209"
+        ],
+        "alias": [
+          "f"
+        ]
+      },
+      "Switch": {
+        "permission": "Mod",
+        "userPermissions": null,
+        "alias": [
+          "ss"
+        ]
+      }
+    }
+  },
+  "optionalScenes": {
+    "starting": "STARTING",
+    "ending": "ENDING",
+    "privacy": "PRIVACY",
+    "refresh": "REFRESH"
+  },
+  "optionalOptions": {
+    "twitchTranscodingCheck": false,
+    "twitchTranscodingRetries": 5,
+    "twitchTranscodingDelaySeconds": 15,
+    "offlineTimeout": null,
+    "recordWhileStreaming": false,
+    "switchToStartingSceneOnStreamStart": true,
+    "switchFromStartingSceneToLiveScene": true
+  }
+}
