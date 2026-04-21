@@ -220,14 +220,6 @@ Irlos follows the Red Hat model: the OS is GPL-licensed and free forever. Nobody
 - Managed hosting margin - buy at GPUmart wholesale, sell at Irlos Cloud retail
 - Support tiers - priority support, onboarding, custom configurations
 
-## **GPUmart partnership**
-
-GPUmart (DatabaseMart) are among the only cloud providers offering low-end consumer NVIDIA GPUs (GTX 1650, RTX 3060) at accessible price points (~\$30-80/month). This is the exact hardware Irlos requires for NVENC encoding. Enterprise GPU cloud providers (AWS, GCP, CoreWeave) sell A100s and H100s at \$2-3/hour - entirely wrong for IRL streaming.
-
-The partnership model: GPUmart adds Irlos as an OS option in their deploy interface alongside Ubuntu and Windows Server. They ship servers with dummy plugs pre-installed for Irlos orders. Irlos.io markets GPUmart as the officially supported cloud provider. Commission on every referral conversion.
-
-From GPUmart's perspective: zero engineering risk, new customer vertical (IRL streamers - not their typical buyer), incremental hardware revenue from existing inventory. An afternoon of integration work for a new distribution channel.
-
 # **Security model**
 
 ## **Credential isolation**
