@@ -1,0 +1,13 @@
+/home/irlos/SRT/srt/CMakeFiles/srt_virtual.dir
+/home/irlos/SRT/srt/CMakeFiles/srt_shared.dir
+/home/irlos/SRT/srt/CMakeFiles/srt_static.dir
+/home/irlos/SRT/srt/CMakeFiles/srtsupport_virtual.dir
+/home/irlos/SRT/srt/CMakeFiles/srt-live-transmit.dir
+/home/irlos/SRT/srt/CMakeFiles/srt-file-transmit.dir
+/home/irlos/SRT/srt/CMakeFiles/srt-tunnel.dir
+/home/irlos/SRT/srt/CMakeFiles/edit_cache.dir
+/home/irlos/SRT/srt/CMakeFiles/rebuild_cache.dir
+/home/irlos/SRT/srt/CMakeFiles/list_install_components.dir
+/home/irlos/SRT/srt/CMakeFiles/install.dir
+/home/irlos/SRT/srt/CMakeFiles/install/local.dir
+/home/irlos/SRT/srt/CMakeFiles/install/strip.dir

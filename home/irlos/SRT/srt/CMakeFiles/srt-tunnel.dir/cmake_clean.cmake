@@ -1,0 +1,11 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/srt-tunnel.dir/apps/srt-tunnel.cpp.o"
+  "CMakeFiles/srt-tunnel.dir/apps/srt-tunnel.cpp.o.d"
+  "srt-tunnel"
+  "srt-tunnel.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/srt-tunnel.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
