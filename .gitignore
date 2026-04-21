@@ -1,0 +1,17 @@
+# chroot OS filesystem — never commit these
+bin
+boot/
+dev/
+etc/
+lib
+lib64
+proc/
+run/
+sbin
+sys/
+tmp/
+usr/
+var/
+root/
+
+# only track irlos project files
